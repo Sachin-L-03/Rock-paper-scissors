@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="/Rock_paper_scissors/Rock.png" alt="Rock">
+        </div>
+
+        <div class="choice" id="paper">
+            <img src="/Rock_paper_scissors/Paper.png" alt="Paper">
+        </div>
+
+        <div class="choice" id="scissors">
+            <img src="/Rock_paper_scissors/Scissors.png" alt="Scissors">
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Choose your move</p>
+    </div>
+
+    <div class="showresult hide">
+        <div class="yourchoice">
+            <img src="/yellow.jpeg" alt="" id="user">
+            <p>Your choice</p>
+        </div>
+
+        <div class="computerchoice">
+            <img src="/yellow.jpeg" alt="" id="comp">
+            <p>Computer choice</p>
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>Your Score</p>
+        </div>
+
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Computer Score</p>
+        </div>
+    </div>
+
+    <div class="reset">
+        <p id="resetbtn">Reset Game</p>
+    </div>
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
